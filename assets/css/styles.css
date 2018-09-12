@@ -1,0 +1,31 @@
+.rounded {
+    border-radius: 1rem!important;
+    border-top-left-radius: 1rem !important;
+    border-top-right-radius: 1rem !important;
+    border-bottom-right-radius: 1rem !important;
+    border-bottom-left-radius: 1rem !important;
+}
+
+/*---------------------------------------------------Discography*/
+
+.song-name {
+    text-align: center;
+}
+
+.song-controls {
+    text-align: center;
+}
+
+/*---------------------------------------------------Media Queries*/
+
+/* md or bigger */
+
+@media(min-width: 768px) {
+    .song-name {
+        text-align: right;
+    }
+
+    .song-controls {
+        text-align: left;
+    }
+}
