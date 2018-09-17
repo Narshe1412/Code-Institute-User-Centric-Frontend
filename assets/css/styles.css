@@ -1,6 +1,41 @@
 /*---------------------------------------------------Fonts*/
 
+@import url('https://fonts.googleapis.com/css?family=Monoton|Port+Lligat+Sans|Spicy+Rice');
+
 /*---------------------------------------------------Colors*/
+
+.pale-yellow {
+    color: #FEF6D4;
+}
+
+.pale-green {
+    color: #9DD2B6;
+}
+
+.dark-blue {
+    color: #1B1B9A;
+}
+
+.olive-green {
+    color: #5A9361;
+}
+
+.groovy-green {
+    color: #1FB17C;
+}
+
+.groovy-red {
+    color: #F83312;
+}
+
+.kaki-brown {
+    color: #C8B461;
+}
+
+.dark-orange {
+    color: #D25B31;
+}
+
 
 /*---------------------------------------------------Common*/
 
@@ -16,6 +51,66 @@
     border-bottom-left-radius: 1rem !important;
 }
 
+/*---------------------------------------------------Main*/
+
+body {
+    background-color: #FEF6D4;
+    color: #F83312;
+    font-family: 'Port Lligat Sans', "Impact", "Charcoal", sans-serif;
+}
+
+/*---------------------------------------------------Nav Bar*/
+
+.navbar {
+    font-family: 'Spicy Rice', "Impact", "Charcoal", cursive;
+    font-weight: 500;
+}
+
+.navbar-custom {
+    background-color: #D25B31;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #FEF6D4;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    padding: 0;
+}
+
+.dropdown-menu.show {
+   background-color: #FEF6D4; 
+}
+
+.navbar-custom .dropdown-menu .dropdown-item {
+    color: #D25B31;
+    background-color: #FEF6D4;
+}
+
+.navbar-custom .dropdown-menu .dropdown-item:hover {
+    color: #9DD2B6;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #FEF6D4;
+    font-size: 1.2rem;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #9DD2B6;
+}
+
+.navbar-toggler {
+  border-color: #FEF6D4;
+} 
+
+.fa-navicon {
+    color: #FEF6D4;
+    font-size: 30px;
+}
 /*---------------------------------------------------Social Media*/
 
 .social-links {
@@ -39,7 +134,7 @@
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #F83312;
 }
 
 /*---------------------------------------------------Discography*/

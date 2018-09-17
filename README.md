@@ -44,7 +44,7 @@ Below some of the initial mockups for the site:
 - Social Media Icons - Allow users to find other official social media accounts from the band
 
 ### Features Left to Implement
-- Embedded social media pressence, like Twitter widget with the latest interactions from the band, or latest Instagram posts, etc...
+- Embedded social media pressence: Twitter widget with the latest interactions from the band, or latest Instagram posts, etc...
 - Official chat room, where fans can interact with each other
 
 
@@ -63,18 +63,35 @@ Below some of the initial mockups for the site:
 
 # TODO
 ## Testing
+This website is does not include any programming automation, therefore all Test Cases need to be performed manually as described:
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+### Test Cases
+1. As an user, I want to be able to read the band's information and discography, so I can learn more about the band.
+2. As an user, I want to be able to hear sound clips from the band's catalog, so I can check the quality and style of the band's music.
+3. As an user, I want to be able to watch clips from the band's catalog, so I can check the quality and style of the band's appearance and performance.
+    - Video Carousel:
+        1. Click "How we rock" menu item, followed with "Videos" option
+        2. 
+
+4. As an user, I want to be able to contact the band for availability, so I can hire them to perform on events.
+    - Contact form:
+        1. Click "Hire Us" menu item
+        2. Try to submit the empty form and verify that an error message about the required fields appears
+        3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+        4. Try to submit the form with all inputs valid and verify that a success message appears.
+        
+5. As an user, I want to be able to find social media links that will point me to other social media accounts from the band, so I can choose my preferred social media app to interact with the band.
+
+
+
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that 
+the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -104,6 +121,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 - I received inspiration for this project from X
+- The colour palette was inspired on this [post](https://dribbble.com/shots/4753006-Groovy-colors) by [Kalina Ivanova](https://dribbble.com/KalinaIvanova)
 
 ---
 
