@@ -1,6 +1,6 @@
 /*---------------------------------------------------Fonts*/
 
-@import url('https://fonts.googleapis.com/css?family=Monoton|Port+Lligat+Sans|Spicy+Rice');
+@import url('https://fonts.googleapis.com/css?family=Port+Lligat+Sans|Spicy+Rice');
 
 /*---------------------------------------------------Colors*/
 
@@ -12,8 +12,16 @@
     color: #9DD2B6;
 }
 
+.pale-green-bg {
+    background-color: #9DD2B6;
+}
+
 .dark-blue {
     color: #1B1B9A;
+}
+
+.dark-blue-bg {
+    background-color: #1B1B9A;
 }
 
 .olive-green {
@@ -32,8 +40,16 @@
     color: #C8B461;
 }
 
+.kaki-brown-bg {
+    background-color: #C8B461;
+}
+
 .dark-orange {
     color: #D25B31;
+}
+
+.dark-orange-bg {
+    background-color: #D25B31;
 }
 
 
@@ -54,9 +70,23 @@
 /*---------------------------------------------------Main*/
 
 body {
-    background-color: #FEF6D4;
+    background-color: #D25B31;
     color: #F83312;
     font-family: 'Port Lligat Sans', "Impact", "Charcoal", sans-serif;
+}
+
+section {
+    background-color: #FEF6D4;
+}
+
+h1 {
+    margin: 0;
+}
+
+.section-title {
+    background-color: #D25B31;
+    color: #FEF6D4;
+    font-family: 'Spicy Rice', "Impact", "Charcoal", cursive;
 }
 
 /*---------------------------------------------------Nav Bar*/
@@ -141,10 +171,22 @@ body {
 
 .song-name {
     text-align: center;
+    color: #FEF6D4;
 }
 
 .song-controls {
     text-align: center;
+}
+
+/*---------------------------------------------------Contact*/
+.btn-form-style {
+    color: #FEF6D4;
+    text-align: center;
+    background-color: #D25B31;
+}
+
+.btn-form-style:hover {
+    background-color: #9DD2B6;
 }
 
 /*---------------------------------------------------Media Queries*/
