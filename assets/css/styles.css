@@ -67,6 +67,10 @@
     border-bottom-left-radius: 1rem !important;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 /*---------------------------------------------------Main*/
 
 body {
@@ -111,7 +115,7 @@ h1 {
 }
 
 .dropdown-menu.show {
-   background-color: #FEF6D4; 
+    background-color: #FEF6D4;
 }
 
 .navbar-custom .dropdown-menu .dropdown-item {
@@ -134,18 +138,15 @@ h1 {
 }
 
 .navbar-toggler {
-  border-color: #FEF6D4;
-} 
+    border-color: #FEF6D4;
+}
 
 .fa-navicon {
     color: #FEF6D4;
     font-size: 30px;
 }
-/*---------------------------------------------------Social Media*/
 
-.social-links {
-    padding-bottom: 15px;
-}
+/*---------------------------------------------------Social Media*/
 
 .social-links li a i {
     width: 32px;
@@ -153,21 +154,69 @@ h1 {
     padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
+    font-weight: 600;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35 ease-in-out;
-    -moz-transition: all 0.35 ease-in-out;
-    -webkit-transition: all 0.35 ease-in-out;
-    -o-transition: all 0.35 ease-in-out;
+    background: #FEF6D4;
+    transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background: #F83312;
+    background: #9DD2B6;
+}
+
+/*---------------------------------------------------Band Profile*/
+
+.profile-name {
+    font-family: 'Spicy Rice', "Impact", "Charcoal", cursive;
 }
 
 /*---------------------------------------------------Discography*/
+
+.timeline-item {
+    padding: 3em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #D25B31;
+}
+
+.history-heading {
+    margin-bottom: 50px;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
 
 .song-name {
     text-align: center;
@@ -178,7 +227,24 @@ h1 {
     text-align: center;
 }
 
+/*---------------------------------------------------Live Shows*/
+
+.shows-list {
+    padding: 20px 0 20px 0;
+}
+
+.shows-list li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.shows-list a:hover {
+    color: #9DD2B6;
+}
+
+
 /*---------------------------------------------------Contact*/
+
 .btn-form-style {
     color: #FEF6D4;
     text-align: center;
@@ -200,5 +266,9 @@ h1 {
 
     .song-controls {
         text-align: left;
+    }
+
+    .shows-list ul {
+        padding-left: 10px;
     }
 }
