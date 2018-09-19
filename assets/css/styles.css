@@ -171,6 +171,10 @@ h1 {
     font-family: 'Spicy Rice', "Impact", "Charcoal", cursive;
 }
 
+.profile-card {
+    padding: 10px;
+}
+
 /*---------------------------------------------------Discography*/
 
 .timeline-item {
