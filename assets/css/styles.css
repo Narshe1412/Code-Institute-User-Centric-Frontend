@@ -71,6 +71,10 @@
     text-transform: uppercase;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 /*---------------------------------------------------Main*/
 
 body {
@@ -91,6 +95,7 @@ h1 {
     background-color: #D25B31;
     color: #FEF6D4;
     font-family: 'Spicy Rice', "Impact", "Charcoal", cursive;
+    padding-top: 5px;
 }
 
 /*---------------------------------------------------Nav Bar*/
@@ -194,7 +199,7 @@ h1 {
     content: attr(dates);
     position: absolute;
     left: 2.5em;
-    top: 3em;
+    top: 2.2em;
     display: block;
     font-weight: 500;
     font-size: .8em;
@@ -249,10 +254,19 @@ h1 {
 
 /*---------------------------------------------------Contact*/
 
+.contact-headline {
+    padding: 10px 10px 0 10px;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+
 .btn-form-style {
     color: #FEF6D4;
     text-align: center;
     background-color: #D25B31;
+    margin-bottom: 10px;
 }
 
 .btn-form-style:hover {
