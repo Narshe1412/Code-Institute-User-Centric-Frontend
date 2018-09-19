@@ -385,19 +385,19 @@
 
             </div>
             <div class="container">
-                <form>
+                <form action="https://ptsv2.com/t/splf3-1537369431/post" method="post" target="_blank">
                     <div class="form-group">
                         <label for="InputName">Full Name</label>
-                        <input type="text" class="form-control" id="InputName" placeholder="Full Name" required>
+                        <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Full Name" required>
                     </div>
                     <div class="form-group">
                         <label for="InputEmail">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
+                        <input type="email" class="form-control" id="InputEmail" name="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
                         <label for="InputDesc">Description:</label>
-                        <textarea rows="4" class="form-control" id="InputDesc" placeholder="Short summary of your request. IMPORTANT: If it's for booking a gig, please include a DATE in the description." required></textarea>
+                        <textarea rows="4" class="form-control" id="InputDesc" name="InputDesc" placeholder="Short summary of your request. IMPORTANT: If it's for booking a gig, please include a DATE in the description." required></textarea>
                     </div>
                     <button type="submit" class="btn form-control btn-form-style">Submit</button>
                 </form>
@@ -405,21 +405,28 @@
         </section>
     </article>
     <footer id="legal" class="container">
-        <div class="section-title">
-            <h4>The Legal Stuff</h4>
-        </div>
-        <p>
-            <a href="https://validator.w3.org/check?uri=referer">
+        <div class="section-title row">
+                <h4>The Legal Stuff</h4>
+            </div>
+        <div class="row">
+            <p class="col-10">
+                Website created by Manuel Colorado for a Code Insitute project requirement. Full spec can be found in the <a href="https://github.com/Narshe1412/Code-Institute-User-Centric-Frontend/blob/master/README.md" target="_blank">README.md file in the repository</a>.
+                Copy is prohibited and may get you penalized for plagiarism.
+            </P>
+            <p class="col-2">
+                <a href="https://validator.w3.org/check?uri=referer">
                 <img style="border:0;width:88px;height:31px"
                     src="http://www.w3.org/Icons/valid-html401-blue"
                     alt="Valid HTML!" />
             </a>
-            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
                 <img style="border:0;width:88px;height:31px"
                     src="https://jigsaw.w3.org/css-validator/images/vcss"
                     alt="Valid CSS!" />
             </a>
-        </p>
+            </p>
+        </div>
+
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

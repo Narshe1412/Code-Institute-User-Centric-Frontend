@@ -96,6 +96,7 @@ h1 {
     color: #FEF6D4;
     font-family: 'Spicy Rice', "Impact", "Charcoal", cursive;
     padding-top: 5px;
+    text-shadow: -1px 0 #F83312, 0 1px #F83312, 2px 0 black, 0 -1px black;
 }
 
 /*---------------------------------------------------Nav Bar*/
@@ -112,6 +113,7 @@ h1 {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: #FEF6D4;
+    text-shadow: -1px 0 #F83312, 0 1px #F83312, 2px 0 black, 0 -1px black;
 }
 
 .navbar-brand {
@@ -135,6 +137,7 @@ h1 {
 .navbar-custom .navbar-nav .nav-link {
     color: #FEF6D4;
     font-size: 1.2rem;
+    text-shadow: -1px 0 #F83312, 0 1px #F83312, 2px 0 black, 0 -1px black;
 }
 
 .navbar-custom .nav-item.active .nav-link,
@@ -273,6 +276,13 @@ h1 {
 
 .btn-form-style:hover {
     background-color: #9DD2B6;
+}
+
+/*---------------------------------------------------Footer*/
+
+footer {
+    margin: 30px 0 30px 0;
+    background-color: #FEF6D4;
 }
 
 /*---------------------------------------------------Media Queries*/
