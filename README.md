@@ -73,18 +73,18 @@ This website is does not include any programming automation, therefore all Test 
 
 ### Test Cases
 1. As a user, I want to be able to read the band's information and discography, so I can learn more about the band.
-        1. Click "Who we are" menu item to learn more about the band members
-        2. Click "How we rock" menu item, followed with "Discography" to learn more about the published albums
+    1. Click "Who we are" menu item to learn more about the band members
+    2. Click "How we rock" menu item, followed with "Discography" to learn more about the published albums
 
 2. As a user, I want to be able to hear sound clips from the band's catalog, so I can check the quality and style of the band's music.
-        1. Click "How we rock" menu item, followed with "Songs" option
-        2. Press Play in any of the songs: The playback should start
+    1. Click "How we rock" menu item, followed with "Songs" option
+    2. Press Play in any of the songs: The playback should start
 
 3. As a user, I want to be able to watch clips from the band's catalog, so I can check the quality and style of the band's appearance and performance.
-        1. Click "How we rock" menu item, followed with "Videos" option
-        2. Press Play in the video: The video shall reproduce
-        3. Click on the left and right navigation icons: You should be able to scroll through the current list of videos (3)
-        4. Click on the bottom navigation buttons: You should be able to visit a specific video from current list inside the carrousel (3)
+    1. Click "How we rock" menu item, followed with "Videos" option
+    2. Press Play in the video: The video shall reproduce
+    3. Click on the left and right navigation icons: You should be able to scroll through the current list of videos (3)
+    4. Click on the bottom navigation buttons: You should be able to visit a specific video from current list inside the carrousel (3)
 
 4. As a user, I want to be able to contact the band for availability, so I can hire them to perform on events.
     - Contact form:
@@ -94,39 +94,40 @@ This website is does not include any programming automation, therefore all Test 
         4. Try to submit the form with all inputs valid and verify that a success message appears.
         
 5. As a user, I want to be able to find social media links that will point me to other social media accounts from the band, so I can choose my preferred social media app to interact with the band.
-        1. Navigate to the top of the page
-        2. Click on any of the social media icons to navigate to the respective social media account
+    1. Navigate to the top of the page
+    2. Click on any of the social media icons to navigate to the respective social media account
 
 ### Responsiveness
 - Small devices:
-        The website is collapsed for smaller devices, to make easier the navigation and access to the content. Top menu is collapsed and can be brought up using the "hamburger" icon on the top. Content that displays in several columns for bigger screens is stacked in a single column for small devices. Most margins are reduced or non existant.
+    The website is collapsed for smaller devices, to make easier the navigation and access to the content. Top menu is collapsed and can be brought up using the "hamburger" icon on the top. Content that displays in several columns for bigger screens is stacked in a single column for small devices. Most margins are reduced or non existant.
 - Larger devices:
-        The websive uses a full range of columns to make it visually pleasant the exploration and navigation in larger devices. Menu is completely visible and allows easy navigation.
+    The websive uses a full range of columns to make it visually pleasant the exploration and navigation in larger devices. Menu is completely visible and allows easy navigation.
 
 ### Other tests performed
 - All external links include target=_blank so the user never closes the site by navigating to a external resource.
 - Submitting the form does not add any of the form contents to the user's URL (via POST method)
 
 ### Browsers
-- Tested in the following browsers:
-        - Google Chrome: 69.0.3497.100 ¦ Fully Compatible
-        - Mozilla Firefox: 62.0 ¦ Fully Compatible
-        - Microsoft Edge: 42.17134.1.0 ¦ Fully Compatible
-        - Opera: 52.0 ¦ Fully Compatible
-        - Internet Explorer: 11 ¦ Member profiles not working, rest of functionality compatible
+Tested in the following browsers:
+Google Chrome | 69.0.3497.100 | Fully Compatible
+Mozilla Firefox | 62.0 | Fully Compatible
+Microsoft Edge | 42.17134.1.0 | Fully Compatible
+Opera | 52.0 | Fully Compatible
+Internet Explorer | 11 | Member profiles not working, rest of functionality compatible
 
 ## Deployment
 
 This website consist in a static project structure. It can be deployed to any hosting website as long as it keeps the same structure and filenames are not altered in regards of case (upper-lower case).
-        .
-        ├── assets              # Static media files
-        │   ├── audio           # Audio library (MP3 files)
-        │   ├── css             # Stylesheets
-        │   ├── docs            # Support files for README.md
-        │   ├── images          # Picture library (JPG, PNG, SVG files)
-        │   └── video           # Video library (MP4 files)
-        ├── index.html
-        └── README.md
+
+    .
+    ├── assets              # Static media files
+    │   ├── audio           # Audio library (MP3 files)
+    │   ├── css             # Stylesheets
+    │   ├── docs            # Support files for README.md
+    │   ├── images          # Picture library (JPG, PNG, SVG files)
+    │   └── video           # Video library (MP4 files)
+    ├── index.html
+    └── README.md
 
 ## Credits
 
@@ -144,7 +145,7 @@ This website consist in a static project structure. It can be deployed to any ho
 
 ---
 
-#### Code Institute Requirements
+## Code Institute Requirements
 - Create a website of around 4-5 pages, or (if using a single scrolling page) these should be separate page areas.
 - Incorporate main navigation and grid layout (you might want to use Flexbox or Bootstrap to accomplish this).
 - Whenever possible, strive to use semantic HTML5 elements to structure your HTML code better.
