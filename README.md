@@ -1,6 +1,6 @@
 # Monkees Band Website
 
-In this project, I have been tasked to create a frontend-only website using an User Centric Mobile First approach. 
+In this project, I have been tasked to create a frontend-only website using a user Centric Mobile First approach. 
 
 The client is a 1960’s rock band that have around 50 years experience of performing live at numerous events around the world. They want to establish an online pressence that will include a contact form and links for their other social media pressence.
 
@@ -12,11 +12,11 @@ The following requirements have been provided after interviews with the client�
 
 ## User Stories
 
-- As an user, I want to be able to read the band's information and discography, so I can learn more about the band.
-- As an user, I want to be able to hear sound clips from the band's catalog, so I can check the quality and style of the band's music.
-- As an user, I want to be able to watch clips from the band's catalog, so I can check the quality and style of the band's appearance and performance.
-- As an user, I want to be able to contact the band for availability, so I can hire them to perform on events.
-- As an user, I want to be able to find social media links that will point me to other social media accounts from the band, so I can choose my preferred social media app to interact with the band.
+- As a user, I want to be able to read the band's information and discography, so I can learn more about the band.
+- As a user, I want to be able to hear sound clips from the band's catalog, so I can check the quality and style of the band's music.
+- As a user, I want to be able to watch clips from the band's catalog, so I can check the quality and style of the band's appearance and performance.
+- As a user, I want to be able to contact the band for availability, so I can hire them to perform on events.
+- As a user, I want to be able to find social media links that will point me to other social media accounts from the band, so I can choose my preferred social media app to interact with the band.
 
 
 ## UX
@@ -39,14 +39,14 @@ Below some of the initial mockups for the site:
 - Band Profile - Allow users to get more information about the band
 - Video Carousel - Allow users to check out different featured videos of the band
 - Media Showcase - Allow users to listen to different audio tracks from the band
-- Future Appearances - Allow users to check out the incoming public shows the band will be playing
+- Future Appearances - Allow users to check out the incoming public shows the band will be playing. This was not included as specific requirement, but it will help the customer to have an overview of scheduled live events to gauge expectations on band's availability.
 - Contact Form - Allow users to contact the band, for reservations or further information
 - Social Media Icons - Allow users to find other official social media accounts from the band
 
 ### Features Left to Implement
 - Embedded social media pressence: Twitter widget with the latest interactions from the band, or latest Instagram posts, etc...
 - Official chat room, where fans can interact with each other
-
+- Ability for the client to update the content of the website without relying in a developer.
 
 ## Technologies Used
 <a href="http://www.w3.org/html/logo/">
@@ -60,68 +60,87 @@ Below some of the initial mockups for the site:
 - [Bootstrap](https://getbootstrap.com/)
     - The project uses **Bootstrap** to provide a common responsive layout that is familiar with other websites on the Internet. It also makes the website fully responsive, created with a mobile-first approach.
 
+- [GitKraken GloBoards](https://www.gitkraken.com/glo)
+    - Boards were used to organize and keep track of issues and feedback while developing the website
+- [Cloud9](http://https://c9.io/)
+    - Cloud9 was used as IDE for the project.
+- [Browserling](https://www.browserling.com/)
+    - Browserling was used for testing browser cross-compatibility
 
-# TODO
+
 ## Testing
 This website is does not include any programming automation, therefore all Test Cases need to be performed manually as described:
 
-
 ### Test Cases
-1. As an user, I want to be able to read the band's information and discography, so I can learn more about the band.
-2. As an user, I want to be able to hear sound clips from the band's catalog, so I can check the quality and style of the band's music.
-3. As an user, I want to be able to watch clips from the band's catalog, so I can check the quality and style of the band's appearance and performance.
-    - Video Carousel:
-        1. Click "How we rock" menu item, followed with "Videos" option
-        2. 
+1. As a user, I want to be able to read the band's information and discography, so I can learn more about the band.
+        1. Click "Who we are" menu item to learn more about the band members
+        2. Click "How we rock" menu item, followed with "Discography" to learn more about the published albums
 
-4. As an user, I want to be able to contact the band for availability, so I can hire them to perform on events.
+2. As a user, I want to be able to hear sound clips from the band's catalog, so I can check the quality and style of the band's music.
+        1. Click "How we rock" menu item, followed with "Songs" option
+        2. Press Play in any of the songs: The playback should start
+
+3. As a user, I want to be able to watch clips from the band's catalog, so I can check the quality and style of the band's appearance and performance.
+        1. Click "How we rock" menu item, followed with "Videos" option
+        2. Press Play in the video: The video shall reproduce
+        3. Click on the left and right navigation icons: You should be able to scroll through the current list of videos (3)
+        4. Click on the bottom navigation buttons: You should be able to visit a specific video from current list inside the carrousel (3)
+
+4. As a user, I want to be able to contact the band for availability, so I can hire them to perform on events.
     - Contact form:
         1. Click "Hire Us" menu item
         2. Try to submit the empty form and verify that an error message about the required fields appears
         3. Try to submit the form with an invalid email address and verify that a relevant error message appears
         4. Try to submit the form with all inputs valid and verify that a success message appears.
         
-5. As an user, I want to be able to find social media links that will point me to other social media accounts from the band, so I can choose my preferred social media app to interact with the band.
+5. As a user, I want to be able to find social media links that will point me to other social media accounts from the band, so I can choose my preferred social media app to interact with the band.
+        1. Navigate to the top of the page
+        2. Click on any of the social media icons to navigate to the respective social media account
 
+### Responsiveness
+- Small devices:
+        The website is collapsed for smaller devices, to make easier the navigation and access to the content. Top menu is collapsed and can be brought up using the "hamburger" icon on the top. Content that displays in several columns for bigger screens is stacked in a single column for small devices. Most margins are reduced or non existant.
+- Larger devices:
+        The websive uses a full range of columns to make it visually pleasant the exploration and navigation in larger devices. Menu is completely visible and allows easy navigation.
 
+### Other tests performed
+- All external links include target=_blank so the user never closes the site by navigating to a external resource.
+- Submitting the form does not add any of the form contents to the user's URL (via POST method)
 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that 
-the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Browsers
+- Tested in the following browsers:
+        - Google Chrome: 69.0.3497.100 ¦ Fully Compatible
+        - Mozilla Firefox: 62.0 ¦ Fully Compatible
+        - Microsoft Edge: 42.17134.1.0 ¦ Fully Compatible
+        - Opera: 52.0 ¦ Fully Compatible
+        - Internet Explorer: 11 ¦ Member profiles not working, rest of functionality compatible
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+This website consist in a static project structure. It can be deployed to any hosting website as long as it keeps the same structure and filenames are not altered in regards of case (upper-lower case).
+        .
+        ├── assets              # Static media files
+        │   ├── audio           # Audio library (MP3 files)
+        │   ├── css             # Stylesheets
+        │   ├── docs            # Support files for README.md
+        │   ├── images          # Picture library (JPG, PNG, SVG files)
+        │   └── video           # Video library (MP4 files)
+        ├── index.html
+        └── README.md
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for section Who We Are was copied from the respective Wikipedia articles for each band member: [Micky Dolenz](https://en.wikipedia.org/wiki/Micky_Dolenz), [Michael Nesmith](https://en.wikipedia.org/wiki/Michael_Nesmith), [Peter Tork](https://en.wikipedia.org/wiki/Peter_Tork), [Davy Jones](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
+- The dates for the live appearances was copied from the [Monkees official website](https://www.monkees.net/)
 
 ### Media
-- The photos used in this site were obtained from [Code Institute](https://github.com/Code-Institute-Org/project-assets)
+- The photos and MP3 used in this site were obtained from [Code Institute](https://github.com/Code-Institute-Org/project-assets)
+- The videos used in this site were linked directly from the official Monkees Youtube channel.
 
 ### Acknowledgements
-- I received inspiration for this project from X
 - The colour palette was inspired on this [post](https://dribbble.com/shots/4753006-Groovy-colors) by [Kalina Ivanova](https://dribbble.com/KalinaIvanova)
+- Kudos to Code Institute slack users _Jo Wings_ and _abonello_ and Code Institute mentor _Moosa Hassan_ for their feedback on the project
 
 ---
 
