@@ -1,7 +1,5 @@
 # Monkees Band Website
 
-In this project, I have been tasked to create a frontend-only website using a user Centric Mobile First approach. 
-
 The client is a 1960â€™s rock band that have around 50 years experience of performing live at numerous events around the world. They want to establish an online pressence that will include a contact form and links for their other social media pressence.
 
 ## Customer background and request
@@ -18,9 +16,7 @@ The following requirements have been provided after interviews with the clientâ€
 - As a user, I want to be able to contact the band for availability, so I can hire them to perform on events.
 - As a user, I want to be able to find social media links that will point me to other social media accounts from the band, so I can choose my preferred social media app to interact with the band.
 
-
 ## UX
-
 Users of the site would be fans or soon-to-be-fans. Therefore the website should provide easy access to the information that new users would expect from the band profile, but also give some extra to those who are already fans by providing easy to access links to songs and videos.
 
 In order to alleviate the web load, videos would be hosted externally. Music will also load on demand.
@@ -32,7 +28,6 @@ Social media links are also provided and cross-references in each respective soc
 Below some of the initial mockups for the site:
 - Mobile design: [Profile](/assets/docs/profile_mobile.png) - [Media](/assets/docs/media_mobile.png) - [Contact](/assets/docs/contact_mobile.png)
 - Desktop design: [Profile](/assets/docs/profile_desktop.png) - [Media](/assets/docs/media_desktop.png) - [Contact](/assets/docs/contact_desktop.png)
-
 
 ## Features
 ### Existing Features
@@ -49,6 +44,8 @@ Below some of the initial mockups for the site:
 - Ability for the client to update the content of the website without relying in a developer.
 
 ## Technologies Used
+
+### Website
 <a href="http://www.w3.org/html/logo/">
     <img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-device-multimedia-semantics.png" width="229" height="64" alt="HTML5 Powered with CSS3 / Styling, Device Access, Multimedia, and Semantics" title="HTML5 Powered with CSS3 / Styling, Device Access, Multimedia, and Semantics">
 </a>
@@ -60,6 +57,7 @@ Below some of the initial mockups for the site:
 - [Bootstrap](https://getbootstrap.com/)
     - The project uses **Bootstrap** to provide a common responsive layout that is familiar with other websites on the Internet. It also makes the website fully responsive, created with a mobile-first approach.
 
+### Development
 - [GitKraken GloBoards](https://www.gitkraken.com/glo)
     - Boards were used to organize and keep track of issues and feedback while developing the website
 - [Cloud9](http://https://c9.io/)
@@ -87,11 +85,10 @@ This website is does not include any programming automation, therefore all Test 
     4. Click on the bottom navigation buttons: You should be able to visit a specific video from current list inside the carrousel (3)
 
 4. As a user, I want to be able to contact the band for availability, so I can hire them to perform on events.
-    - Contact form:
-        1. Click "Hire Us" menu item
-        2. Try to submit the empty form and verify that an error message about the required fields appears
-        3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-        4. Try to submit the form with all inputs valid and verify that a success message appears.
+    1. Click "Hire Us" menu item
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
         
 5. As a user, I want to be able to find social media links that will point me to other social media accounts from the band, so I can choose my preferred social media app to interact with the band.
     1. Navigate to the top of the page
@@ -104,16 +101,18 @@ This website is does not include any programming automation, therefore all Test 
     The websive uses a full range of columns to make it visually pleasant the exploration and navigation in larger devices. Menu is completely visible and allows easy navigation.
 
 ### Other tests performed
-- All external links include target=_blank so the user never closes the site by navigating to a external resource.
-- Submitting the form does not add any of the form contents to the user's URL (via POST method)
+- All external links include `target=_blank` so the user never closes the site by navigating to a external resource.
+- Submitting the form does not add any of the form contents to the user's URL (via `POST method`)
 
-### Browsers
+#### Browsers
 Tested in the following browsers:
-Google Chrome | 69.0.3497.100 | Fully Compatible
-Mozilla Firefox | 62.0 | Fully Compatible
-Microsoft Edge | 42.17134.1.0 | Fully Compatible
-Opera | 52.0 | Fully Compatible
-Internet Explorer | 11 | Member profiles not working, rest of functionality compatible
+Vendor | Version | Compatibility status
+--- | --- | ---
+Google Chrome | 69.0.3497.100 | Full
+Mozilla Firefox | 62.0 | Full
+Microsoft Edge | 42.17134.1.0 | Full
+Opera | 52.0 | Full
+Internet Explorer | 11 | Member profiles not working, rest compatible
 
 ## Deployment
 
@@ -146,6 +145,8 @@ This website consist in a static project structure. It can be deployed to any ho
 ---
 
 ## Code Institute Requirements
+In this project, I have been tasked to create a frontend-only website using a user Centric Mobile First approach. 
+
 - Create a website of around 4-5 pages, or (if using a single scrolling page) these should be separate page areas.
 - Incorporate main navigation and grid layout (you might want to use Flexbox or Bootstrap to accomplish this).
 - Whenever possible, strive to use semantic HTML5 elements to structure your HTML code better.
