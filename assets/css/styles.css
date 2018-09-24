@@ -92,6 +92,14 @@ section {
     background-color: #FEF6D4;
 }
 
+.section-title {
+    background-color: #D25B31;
+    color: #FEF6D4;
+    font-family: 'Spicy Rice', "Impact", "Charcoal", cursive;
+    padding-top: 5px;
+    text-shadow: -1px 0 #F83312, 0 1px #F83312, 2px 0 black, 0 -1px black;
+}
+
 h1 {
     margin: 0;
 }
@@ -102,14 +110,6 @@ a {
 
 a:hover {
     color: #9DD2B6;
-}
-
-.section-title {
-    background-color: #D25B31;
-    color: #FEF6D4;
-    font-family: 'Spicy Rice', "Impact", "Charcoal", cursive;
-    padding-top: 5px;
-    text-shadow: -1px 0 #F83312, 0 1px #F83312, 2px 0 black, 0 -1px black;
 }
 
 /*---------------------------------------------------Nav Bar*/
@@ -334,7 +334,7 @@ footer {
 
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
-    
+
     .profile-card {
         width: 100vw;
     }
@@ -354,7 +354,7 @@ footer {
         flex-basis: 75%;
         max-width: 75%;
     }
-    
+
     .profile-pic {
         width: 100%;
     }

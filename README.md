@@ -103,17 +103,17 @@ This website is does not include any programming automation, therefore all Test 
 ### Other tests performed
 - All external links include `target=_blank` so the user never closes the site by navigating to a external resource.
 - Submitting the form does not add any of the form contents to the user's URL (via `POST method`)
+- Internet explorer was giving some errors with the usage of flexbox. Thanks to the comments in Bootstrap github issues and other developers experiencing similar issues on Stackoverflow I was able to figure out a way to work around this bug by using media queries.
 
 #### Browsers
 Tested in the following browsers:
-
 | Vendor | Version | Compatibility status |
 | --- | --- | --- |
 | Google Chrome | 69.0.3497.100 | Full |
 | Mozilla Firefox | 62.0 | Full |
 | Microsoft Edge | 42.17134.1.0 | Full |
 | Opera | 52.0 | Full |
-| Internet Explorer | 11 | 95% Compatible: Site won't display exactly due to IE bug with Flexbox. |
+| Internet Explorer | 11 | 95% Compatible: Member profiles won't display exactly as in other browsers due to IE bug regarding Flexbox. |
 
 ## Deployment
 

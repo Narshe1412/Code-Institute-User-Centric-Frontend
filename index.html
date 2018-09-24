@@ -50,7 +50,8 @@
             </div>
         </nav>
     </header>
-    <div class="social-media container-fluid" >
+
+    <div class="social-media container-fluid">
         <div class="row justify-content-center align-items-center">
             <div class="social-media-card">
                 <div class="section-title">
@@ -340,8 +341,6 @@
                 </div>
             </div>
         </section>
-
-
     </article>
     <article id="getintouch">
         <div class="section-title container-fluid">
@@ -404,6 +403,7 @@
             </div>
         </section>
     </article>
+
     <footer id="legal" class="container">
         <div class="section-title row">
             <h4>The Legal Stuff</h4>
@@ -413,6 +413,8 @@
                 Website created by <a href="https://github.com/Narshe1412/" target="_blank">Manuel Colorado</a> for a Code Insitute project requirement. Full spec can be found in the <a href="https://github.com/Narshe1412/Code-Institute-User-Centric-Frontend/blob/master/README.md"
                     target="_blank" class="groovy-red bold">README.md file in the repository</a>. Copy is prohibited and may get you penalized for plagiarism.
             </P>
+
+            <!-- Validators section -->
             <p class="col-3">
                 <a href="http://www.w3.org/html/logo/">
                     <img class="w3c-logo" src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-device-multimedia-semantics.png" alt="HTML5 Powered with CSS3 / Styling, Device Access, Multimedia, and Semantics" title="HTML5 Powered with CSS3 / Styling, Device Access, Multimedia, and Semantics">
@@ -431,6 +433,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript">
+        /* Handles closing out the navbar when working in small screens*/
         $('.navbar-close').on('click', function() {
             $('.navbar-collapse').collapse('hide');
             $('html, body').animate({
