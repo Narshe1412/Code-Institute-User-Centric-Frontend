@@ -106,13 +106,14 @@ This website is does not include any programming automation, therefore all Test 
 
 #### Browsers
 Tested in the following browsers:
+
 | Vendor | Version | Compatibility status |
 | --- | --- | --- |
 | Google Chrome | 69.0.3497.100 | Full |
 | Mozilla Firefox | 62.0 | Full |
 | Microsoft Edge | 42.17134.1.0 | Full |
 | Opera | 52.0 | Full |
-| Internet Explorer | 11 | 95% Compatible: Member profiles won't display exactly as in other browsers due to IE bug regarding Flexbox. |
+| Internet Explorer | 11 | 95% Compatible: Site won't display exactly due to IE bug with Flexbox. |
 
 ## Deployment
 
