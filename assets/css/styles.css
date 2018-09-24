@@ -329,3 +329,33 @@ footer {
         padding-left: 10px;
     }
 }
+
+/* IE10+ Flexbox fix */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    
+    .profile-card {
+        width: 100vw;
+    }
+
+    .profile-card .col-sm-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .profile-card .col-md-3,
+    .profile-card .col-lg-3 {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .profile-card .col-lg-9,
+    .profile-card .col-md-9 {
+
+        flex-basis: 75%;
+        max-width: 75%;
+    }
+    
+    .profile-pic {
+        width: 100%;
+    }
+}
